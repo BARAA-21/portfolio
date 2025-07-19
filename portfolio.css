@@ -1,0 +1,28 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(103, 140, 103); 
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid black;
+    position: relative;
+    left:620px;
+}
+#hobbiesnskills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px ;
+}
+
+.Hobbies{
+    border: 5px solid white;
+    padding: 30px;
+}
